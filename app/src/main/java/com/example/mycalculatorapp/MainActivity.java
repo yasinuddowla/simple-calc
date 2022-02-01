@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        display = findViewById(R.id.input);
+        //display = findViewById(R.id.input);
+        display = findViewById(R.id.textView4);
         display.setShowSoftInputOnFocus(false);
         display.setOnClickListener(new View.OnClickListener() {
             @Override
